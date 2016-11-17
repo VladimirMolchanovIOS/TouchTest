@@ -8,6 +8,8 @@
 
 import UIKit
 
+let api = API()
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,6 +18,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+
+        let wallPostsController = WallPostsViewController(viewModel: WallPostsViewModel(apiRealmModel: APIRealmModel()))
+        
+        let rootController = UINavigationController(rootViewController: wallPostsController)
+                
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window!.rootViewController = rootController
+        window!.backgroundColor = .white
+        window!.makeKeyAndVisible()
+        
         return true
     }
 

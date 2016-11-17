@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		656BB2D46BC4C9A47D8CABB7 /* Pods_TouchTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0056BD607A957EFBBFED11EE /* Pods_TouchTest.framework */; };
 		B618DA211DDC65AC00C97569 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B618DA201DDC65AC00C97569 /* AppDelegate.swift */; };
-		B618DA231DDC65AC00C97569 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B618DA221DDC65AC00C97569 /* ViewController.swift */; };
-		B618DA261DDC65AC00C97569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B618DA241DDC65AC00C97569 /* Main.storyboard */; };
 		B618DA281DDC65AC00C97569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B618DA271DDC65AC00C97569 /* Assets.xcassets */; };
 		B618DA2B1DDC65AC00C97569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B618DA291DDC65AC00C97569 /* LaunchScreen.storyboard */; };
+		B618DA331DDC726F00C97569 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = B618DA321DDC726F00C97569 /* API.swift */; };
+		B6330CB31DDCA8F500CEBE68 /* WallPostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6330CB21DDCA8F500CEBE68 /* WallPostModel.swift */; };
+		B6330CB71DDCD5FE00CEBE68 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6330CB61DDCD5FE00CEBE68 /* Settings.swift */; };
+		B6330CB91DDCEAB100CEBE68 /* WallPostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6330CB81DDCEAB100CEBE68 /* WallPostsViewController.swift */; };
+		B6330CBB1DDCEACB00CEBE68 /* WallPostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6330CBA1DDCEACB00CEBE68 /* WallPostsViewModel.swift */; };
+		B6330CBD1DDCEAE000CEBE68 /* PostDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6330CBC1DDCEAE000CEBE68 /* PostDetailsViewController.swift */; };
+		B6330CBF1DDCEAFA00CEBE68 /* PostDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6330CBE1DDCEAFA00CEBE68 /* PostDetailsViewModel.swift */; };
+		B6330CC11DDCEDE000CEBE68 /* WallPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6330CC01DDCEDE000CEBE68 /* WallPostTableViewCell.swift */; };
+		B6330CC31DDCF94F00CEBE68 /* WallPostCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6330CC21DDCF94F00CEBE68 /* WallPostCellModel.swift */; };
+		B6330CC51DDD017B00CEBE68 /* APIRealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6330CC41DDD017B00CEBE68 /* APIRealmModel.swift */; };
+		B6330CC71DDD12E100CEBE68 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6330CC61DDD12E100CEBE68 /* AlertHelper.swift */; };
+		B6330CC91DDD135C00CEBE68 /* GeneralHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6330CC81DDD135C00CEBE68 /* GeneralHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0056BD607A957EFBBFED11EE /* Pods_TouchTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TouchTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96D5483D5E0562301A7F0F9B /* Pods-TouchTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouchTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-TouchTest/Pods-TouchTest.release.xcconfig"; sourceTree = "<group>"; };
 		B618DA1D1DDC65AC00C97569 /* TouchTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B618DA201DDC65AC00C97569 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B618DA221DDC65AC00C97569 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B618DA251DDC65AC00C97569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B618DA271DDC65AC00C97569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B618DA2A1DDC65AC00C97569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B618DA2C1DDC65AC00C97569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B618DA321DDC726F00C97569 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		B6330CB21DDCA8F500CEBE68 /* WallPostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallPostModel.swift; sourceTree = "<group>"; };
+		B6330CB61DDCD5FE00CEBE68 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		B6330CB81DDCEAB100CEBE68 /* WallPostsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallPostsViewController.swift; sourceTree = "<group>"; };
+		B6330CBA1DDCEACB00CEBE68 /* WallPostsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallPostsViewModel.swift; sourceTree = "<group>"; };
+		B6330CBC1DDCEAE000CEBE68 /* PostDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailsViewController.swift; sourceTree = "<group>"; };
+		B6330CBE1DDCEAFA00CEBE68 /* PostDetailsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailsViewModel.swift; sourceTree = "<group>"; };
+		B6330CC01DDCEDE000CEBE68 /* WallPostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallPostTableViewCell.swift; sourceTree = "<group>"; };
+		B6330CC21DDCF94F00CEBE68 /* WallPostCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallPostCellModel.swift; sourceTree = "<group>"; };
+		B6330CC41DDD017B00CEBE68 /* APIRealmModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRealmModel.swift; sourceTree = "<group>"; };
+		B6330CC61DDD12E100CEBE68 /* AlertHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		B6330CC81DDD135C00CEBE68 /* GeneralHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralHelper.swift; sourceTree = "<group>"; };
+		C630C82BDDE244FA2791CFA8 /* Pods-TouchTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouchTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TouchTest/Pods-TouchTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				656BB2D46BC4C9A47D8CABB7 /* Pods_TouchTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14BCA2C14067456DC7F73009 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C630C82BDDE244FA2791CFA8 /* Pods-TouchTest.debug.xcconfig */,
+				96D5483D5E0562301A7F0F9B /* Pods-TouchTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9DD49240D3ED0B60B24A04F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0056BD607A957EFBBFED11EE /* Pods_TouchTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B618DA141DDC65AC00C97569 = {
 			isa = PBXGroup;
 			children = (
 				B618DA1F1DDC65AC00C97569 /* TouchTest */,
 				B618DA1E1DDC65AC00C97569 /* Products */,
+				14BCA2C14067456DC7F73009 /* Pods */,
+				9DD49240D3ED0B60B24A04F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +99,63 @@
 			isa = PBXGroup;
 			children = (
 				B618DA201DDC65AC00C97569 /* AppDelegate.swift */,
-				B618DA221DDC65AC00C97569 /* ViewController.swift */,
-				B618DA241DDC65AC00C97569 /* Main.storyboard */,
+				B6330CB61DDCD5FE00CEBE68 /* Settings.swift */,
+				B6330CCE1DDDB50C00CEBE68 /* Helpers */,
+				B6330CCD1DDDB4EE00CEBE68 /* Models */,
+				B6330CCC1DDDB4BF00CEBE68 /* Screens */,
 				B618DA271DDC65AC00C97569 /* Assets.xcassets */,
 				B618DA291DDC65AC00C97569 /* LaunchScreen.storyboard */,
 				B618DA2C1DDC65AC00C97569 /* Info.plist */,
 			);
 			path = TouchTest;
+			sourceTree = "<group>";
+		};
+		B6330CCA1DDDB4AD00CEBE68 /* WallPosts */ = {
+			isa = PBXGroup;
+			children = (
+				B6330CB81DDCEAB100CEBE68 /* WallPostsViewController.swift */,
+				B6330CBA1DDCEACB00CEBE68 /* WallPostsViewModel.swift */,
+				B6330CC01DDCEDE000CEBE68 /* WallPostTableViewCell.swift */,
+				B6330CC21DDCF94F00CEBE68 /* WallPostCellModel.swift */,
+			);
+			name = WallPosts;
+			sourceTree = "<group>";
+		};
+		B6330CCB1DDDB4B600CEBE68 /* PostDetails */ = {
+			isa = PBXGroup;
+			children = (
+				B6330CBC1DDCEAE000CEBE68 /* PostDetailsViewController.swift */,
+				B6330CBE1DDCEAFA00CEBE68 /* PostDetailsViewModel.swift */,
+			);
+			name = PostDetails;
+			sourceTree = "<group>";
+		};
+		B6330CCC1DDDB4BF00CEBE68 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B6330CCA1DDDB4AD00CEBE68 /* WallPosts */,
+				B6330CCB1DDDB4B600CEBE68 /* PostDetails */,
+			);
+			name = Screens;
+			sourceTree = "<group>";
+		};
+		B6330CCD1DDDB4EE00CEBE68 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B6330CC41DDD017B00CEBE68 /* APIRealmModel.swift */,
+				B6330CB21DDCA8F500CEBE68 /* WallPostModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B6330CCE1DDDB50C00CEBE68 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B618DA321DDC726F00C97569 /* API.swift */,
+				B6330CC61DDD12E100CEBE68 /* AlertHelper.swift */,
+				B6330CC81DDD135C00CEBE68 /* GeneralHelper.swift */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B618DA2F1DDC65AC00C97569 /* Build configuration list for PBXNativeTarget "TouchTest" */;
 			buildPhases = (
+				3ACA733165A6638C6EEBC743 /* [CP] Check Pods Manifest.lock */,
 				B618DA191DDC65AC00C97569 /* Sources */,
 				B618DA1A1DDC65AC00C97569 /* Frameworks */,
 				B618DA1B1DDC65AC00C97569 /* Resources */,
+				738224C45AA40ADBA9AAC813 /* [CP] Embed Pods Frameworks */,
+				C472727E6A23CAECACF8C5FE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,33 +223,83 @@
 			files = (
 				B618DA2B1DDC65AC00C97569 /* LaunchScreen.storyboard in Resources */,
 				B618DA281DDC65AC00C97569 /* Assets.xcassets in Resources */,
-				B618DA261DDC65AC00C97569 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3ACA733165A6638C6EEBC743 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		738224C45AA40ADBA9AAC813 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TouchTest/Pods-TouchTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C472727E6A23CAECACF8C5FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TouchTest/Pods-TouchTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B618DA191DDC65AC00C97569 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B618DA231DDC65AC00C97569 /* ViewController.swift in Sources */,
+				B6330CC71DDD12E100CEBE68 /* AlertHelper.swift in Sources */,
+				B6330CB91DDCEAB100CEBE68 /* WallPostsViewController.swift in Sources */,
+				B6330CC11DDCEDE000CEBE68 /* WallPostTableViewCell.swift in Sources */,
+				B6330CBB1DDCEACB00CEBE68 /* WallPostsViewModel.swift in Sources */,
+				B6330CB31DDCA8F500CEBE68 /* WallPostModel.swift in Sources */,
+				B6330CBF1DDCEAFA00CEBE68 /* PostDetailsViewModel.swift in Sources */,
+				B618DA331DDC726F00C97569 /* API.swift in Sources */,
+				B6330CBD1DDCEAE000CEBE68 /* PostDetailsViewController.swift in Sources */,
 				B618DA211DDC65AC00C97569 /* AppDelegate.swift in Sources */,
+				B6330CC91DDD135C00CEBE68 /* GeneralHelper.swift in Sources */,
+				B6330CB71DDCD5FE00CEBE68 /* Settings.swift in Sources */,
+				B6330CC51DDD017B00CEBE68 /* APIRealmModel.swift in Sources */,
+				B6330CC31DDCF94F00CEBE68 /* WallPostCellModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B618DA241DDC65AC00C97569 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B618DA251DDC65AC00C97569 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B618DA291DDC65AC00C97569 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -257,6 +404,7 @@
 		};
 		B618DA301DDC65AC00C97569 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C630C82BDDE244FA2791CFA8 /* Pods-TouchTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SM43G3Z2Z7;
@@ -270,6 +418,7 @@
 		};
 		B618DA311DDC65AC00C97569 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96D5483D5E0562301A7F0F9B /* Pods-TouchTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SM43G3Z2Z7;
@@ -300,6 +449,7 @@
 				B618DA311DDC65AC00C97569 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

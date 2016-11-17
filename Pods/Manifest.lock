@@ -1,0 +1,41 @@
+PODS:
+  - Alamofire (4.1.0)
+  - EasyPeasy (1.4)
+  - Realm (2.0.4):
+    - Realm/Headers (= 2.0.4)
+  - Realm/Headers (2.0.4)
+  - RealmSwift (2.0.4):
+    - Realm (= 2.0.4)
+  - RxCocoa (3.0.1):
+    - RxSwift (~> 3.0)
+  - RxRealm (0.3.1):
+    - RealmSwift (~> 2.0)
+    - RxSwift (~> 3.0.0)
+  - RxSwift (3.0.1)
+  - SwiftyJSON (3.1.1)
+  - Then (2.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - EasyPeasy
+  - RealmSwift
+  - RxCocoa (~> 3.0)
+  - RxRealm
+  - RxSwift (~> 3.0)
+  - SwiftyJSON
+  - Then
+
+SPEC CHECKSUMS:
+  Alamofire: e266cf991b933498df791e645e0d8ac294492153
+  EasyPeasy: c2e49ceb822edc0a5fffefd66240fff10129047d
+  Realm: 9da97f48365f8b99dd95c28d45ad8222d62e1775
+  RealmSwift: 01e8db006035f16003e6307ae8eae1adccce68db
+  RxCocoa: 15a52fc590dcc700cb4a690a633b5c5184ce3a78
+  RxRealm: 0965e07d49b8575d16c3a0487c667dfe64ce6a9c
+  RxSwift: af5680055c4ad04480189c52d28385b1029493a6
+  SwiftyJSON: f0be2e604f83e8405a624e9f891898bf6ed4e019
+  Then: 8496793c8fcac95482b943909b440724c7d8d82c
+
+PODFILE CHECKSUM: acaed73fbf179727c2f392295c68c149a7f4f4dc
+
+COCOAPODS: 1.1.1
